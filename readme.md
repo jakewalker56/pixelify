@@ -41,13 +41,13 @@ Some options don't go well together.  Some examples include:
 
 # Examples
 pixelfy.py -image example1.png -output output1.png -clusters 6 -width 30 -height 30 -roundradius 2
-![example 1](https://github.com/jakewalker56/pixelify/blob/master/example1.png) 
-![output 1](https://github.com/jakewalker56/pixelify/blob/master/output1.png)
+![example 1](https://github.com/jakewalker56/pixelify/blob/master/images/example1.png) 
+![output 1](https://github.com/jakewalker56/pixelify/blob/master/images/output1.png)
 
 
 pixelfy.py -image example2.png -output output2.png -clusters 8 -width 20 -height 30 -shift 0.2 -roundradius 1
-![example 2](https://github.com/jakewalker56/pixelify/blob/master/example2.png) 
-![output 2](https://github.com/jakewalker56/pixelify/blob/master/output2.png)
+![example 2](https://github.com/jakewalker56/pixelify/blob/master/images/example2.png) 
+![output 2](https://github.com/jakewalker56/pixelify/blob/master/images/output2.png)
 
 pixelfy.py -image example3.png -output output3.png -clusters 8 -width 8 -height 8 -shading true -rounding false -text true -textcolor white
 ![example 3](https://github.com/jakewalker56/pixelify/blob/master/example3.png) 
