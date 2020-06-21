@@ -6,7 +6,7 @@ Pixelfy is a programatic image editing utility that turns images into stylazed p
 I built this tool in a weekend after thumbing through the [Map Design Toolbox](https://us.gestalten.com/products/map-design-toolbox) and wishing I could generate maps similar to those.
 
 # Usage
-usage: pixelfy.py [-h] [-width WIDTH] [-height HEIGHT] [-shift SHIFT] [-clusters CLUSTERS] [-borderpix BORDERPIX]
+    usage: pixelfy.py [-h] [-width WIDTH] [-height HEIGHT] [-shift SHIFT] [-clusters CLUSTERS] [-borderpix BORDERPIX]
                   [-rounding ROUNDING] [-roundradius ROUNDRADIUS] [-shading SHADING] [-text TEXT] -image IMAGE
 
     Pixelfy and stylize images
@@ -50,30 +50,30 @@ pixelfy.py -image example2.png -output output2.png -clusters 8 -width 20 -height
 ![output 2](https://github.com/jakewalker56/pixelify/blob/master/images/output2.png)
 
 pixelfy.py -image example3.png -output output3.png -clusters 8 -width 8 -height 8 -shading true -rounding false -text true -textcolor white
-![example 3](https://github.com/jakewalker56/pixelify/blob/master/example3.png) 
-![output 3](https://github.com/jakewalker56/pixelify/blob/master/output3.png)
+![example 3](https://github.com/jakewalker56/pixelify/blob/master/images/example3.png) 
+![output 3](https://github.com/jakewalker56/pixelify/blob/master/images/output3.png)
 
 pixelfy.py -image example4.png -output output4.png -clusters 2 -width 20 -height 10
-![example 4](https://github.com/jakewalker56/pixelify/blob/master/example4.png) 
-![output 4](https://github.com/jakewalker56/pixelify/blob/master/output4.png)
+![example 4](https://github.com/jakewalker56/pixelify/blob/master/images/example4.png) 
+![output 4](https://github.com/jakewalker56/pixelify/blob/master/images/output4.png)
 
 pixelfy.py -image example5.png -output output5.png -clusters 2 -width 50 -height 50
-![example 5](https://github.com/jakewalker56/pixelify/blob/master/example5.png) 
-![output 5](https://github.com/jakewalker56/pixelify/blob/master/output5.png)
+![example 5](https://github.com/jakewalker56/pixelify/blob/master/images/example5.png) 
+![output 5](https://github.com/jakewalker56/pixelify/blob/master/images/output5.png)
 
 pixelfy.py -image example6.png -output output6.png -clusters 4 -width 50 -height 50 -shading true -borderpix 10
-![example 6](https://github.com/jakewalker56/pixelify/blob/master/example6.png) 
-![output 6](https://github.com/jakewalker56/pixelify/blob/master/output6.png)
+![example 6](https://github.com/jakewalker56/pixelify/blob/master/images/example6.png) 
+![output 6](https://github.com/jakewalker56/pixelify/blob/master/images/output6.png)
 
 pixelfy.py -image example7.png -output output7.png -clusters 2 -width 10 -height 10 -roundradius 1
-![example 7](https://github.com/jakewalker56/pixelify/blob/master/example7.png) 
-![output 7](https://github.com/jakewalker56/pixelify/blob/master/output7.png)
+![example 7](https://github.com/jakewalker56/pixelify/blob/master/images/example7.png) 
+![output 7](https://github.com/jakewalker56/pixelify/blob/master/images/output7.png)
 
 pixelfy.py -image example8.png -output output8.png -clusters 3 -width 3 -height 3
 pixelfy.py -image example8.png -output output9.png -clusters 4 -width 3 -height 3
 pixelfy.py -image example8.png -output output10.png -clusters 10 -width 3 -height 3
 
-![example 8](https://github.com/jakewalker56/pixelify/blob/master/example8.png) 
-![output 8](https://github.com/jakewalker56/pixelify/blob/master/output8.png)
-![output 9](https://github.com/jakewalker56/pixelify/blob/master/output9.png)
-![output 10](https://github.com/jakewalker56/pixelify/blob/master/output10.png)
+![example 8](https://github.com/jakewalker56/pixelify/blob/master/images/example8.png) 
+![output 8](https://github.com/jakewalker56/pixelify/blob/master/images/output8.png)
+![output 9](https://github.com/jakewalker56/pixelify/blob/master/images/output9.png)
+![output 10](https://github.com/jakewalker56/pixelify/blob/master/images/output10.png)
